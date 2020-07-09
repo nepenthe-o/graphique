@@ -64,10 +64,11 @@ h4 {
 
 h5 {
     font-size: 110%;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 0.8em;
     margin: 0;
     padding: 0;
+    word-spacing: 3px;
 }
 
 p {
@@ -160,13 +161,16 @@ button:hover {
 h1 {
     flex: 1;
     text-align: right;
-    padding: 2% 1%;
+    padding: 2% 3%;
     background-color: #36383B;
+}
+
+.right-side {
+    padding: 3% 5%;
 }
 
 .right-side,
 h3 {
-    padding: 2% 15% 2% 1%;
     flex: 1;
 }
 
@@ -193,6 +197,16 @@ em {
     padding-top: 3%;
 }
 
+.large-icons {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    color: #0DA3AC;
+}
+
+.large-icons:hover {
+    color: #36383B;
+}
+
 .icon-headings {
     flex: 1;
     background-color: #fff;
@@ -209,39 +223,24 @@ h5 {
     padding: 1.5%;
 }
 
-.clients {
+.client-container {
     display: flex;
     width: auto;
     margin: 0%;
     align-items: center;
     background-color: #fff;
-    color: #36383B;
+    padding: 0 10%;
 }
 
-.client-logos,
-ul {
-    display: flex;
-    flex: 2;
-    background-color: #fff;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    max-width: 100%;
-    justify-items: left;
-}
-
-.client-paragraph {
-    background-color: #fff;
-    color: #36383B;
-    padding: 2% 15% 2% 1%;
+.client-logos {
     flex: 1;
-}
-
-
-/* .client-logos,
-li {
-    background-color: #fff;
-    height: auto;
-    flex-grow: 1;
     justify-items: center;
     align-items: center;
-} */
+}
+
+.client-p {
+    flex: 1;
+    font-weight: 500;
+    line-height: 1.8em;
+    justify-content: center;
+}
