@@ -92,9 +92,14 @@ li,
 a,
 button {
     font-weight: 400;
-    font-size: 16px;
     color: #ecf0f1;
 }
+
+
+/* HEADER */
+
+
+/* ----------------------------------------------- */
 
 header {
     display: flex;
@@ -102,6 +107,7 @@ header {
     align-items: center;
     padding: 5px 10%;
     background-color: #36383B;
+    font-size: 16px;
 }
 
 .logo {
@@ -147,6 +153,12 @@ button {
 button:hover {
     background-color: rgba(0, 136, 169, 0.5);
 }
+
+
+/* BODY */
+
+
+/* ----------------------------------------------- */
 
 .why-freelance {
     display: flex;
@@ -243,4 +255,77 @@ h5 {
     font-weight: 500;
     line-height: 1.8em;
     justify-content: center;
+}
+
+
+/* FOOTER */
+
+
+/* ----------------------------------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+    background-color: #36383B;
+    font-size: 12px;
+}
+
+.footer-logo {
+    cursor: pointer;
+    width: 300px;
+    background-color: #36383B;
+}
+
+ul {
+    margin: 0;
+    background-color: #36383B;
+}
+
+.nav-links-footer ul {
+    list-style: none;
+    background-color: #36383B;
+}
+
+.nav-links-footer li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #36383B;
+}
+
+.nav-links-footer li a {
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links-footer li a:hover {
+    color: #0DA3AC;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.5);
+}
+
+
+/* CONTACT PAGE */
+
+
+/* ----------------------------------------------- */
+
+.grid-container {
+    display: grid;
+    margin: 3% 15%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    /* grid-auto-rows: 200px; */
 }
