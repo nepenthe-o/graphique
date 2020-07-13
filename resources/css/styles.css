@@ -45,8 +45,8 @@ h1 {
 
 h2 {
     font-size: 110%;
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 0.8em;
 }
 
 h3 {
@@ -58,8 +58,10 @@ h3 {
 }
 
 h4 {
-    font-size: 50%;
-    font-weight: 500;
+    font-size: 220%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
 
 h5 {
@@ -338,9 +340,9 @@ button:hover {
 
 .grid-container {
     display: grid;
-    margin: 3% 15%;
+    margin: 2% 12% 2% 12%;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 40px;
+    grid-column-gap: 60px;
     background-color: #fff;
 }
 
@@ -348,11 +350,12 @@ button:hover {
 .med-icons,
 .icon-headings {
     background-color: #fff;
+    text-align: center;
 }
 
 .grid-container p {
     font-weight: 500;
-    font-size: 80%;
+    font-size: 16px;
     padding-top: 20px;
 }
 
@@ -380,4 +383,122 @@ p {
 
 .googlemap {
     margin-bottom: -1%;
+}
+
+.category-heading,
+h4 {
+    padding: 2% 20% 2% 20%;
+    text-align: center;
+}
+
+.section-row,
+h2 {
+    background-color: #171B1D;
+    color: #fff;
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.logos-id,
+.corporate-logos {
+    width: 60%;
+}
+
+.corporate-id img {
+    align-self: center;
+    margin: 0% 20%;
+    padding: 0.5%;
+}
+
+.subheading {
+    text-align: center;
+    padding: 3%;
+}
+
+.section-end h2 {
+    background-color: #171B1D;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2em;
+    text-transform: none;
+    margin-bottom: -10px;
+}
+
+
+/* MARKETING GALLERY
+
+
+/* ----------------------------------------------- */
+
+
+/* .section-marketing {
+    padding: 0;
+}
+
+.marketing-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.marketing-showcase li {
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+.marketing-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.marketing-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.marketing-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+} */
+
+
+/* PRINT GALLERY */
+
+
+/* ----------------------------------------------- */
+
+.gallery-grid {
+    width: 60%;
+    margin: 1% 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+}
+
+.photography-gallery {
+    width: 80%;
+    margin: 1% 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+.photography-gallery img {
+    width: 100%;
 }
