@@ -7,7 +7,7 @@
                 align-items: center;
                 padding: 2% 5%;
                 background-color: #36383B;
-                font-size: 14px;
+                font-size: 16px;
                 width: 100%;
             }
             .logo {
@@ -52,9 +52,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                padding: 0% 5%;
+                padding: 1% 5%;
                 background-color: #36383B;
                 font-size: 12px;
+            }
+            .cta {
+                margin: 15px;
             }
         }
         /* portrait tablet 768 - 1023px */
@@ -114,7 +117,77 @@
         }
         /* small tablets 481 - 767px */
         
-        @media only screen and (max-width: 767px) {}
+        @media only screen and (max-width: 767px) {
+            nav {
+                align-content: center;
+                justify-content: center;
+            }
+            header nav {
+                display: flex;
+            }
+            .nav-links {
+                font-size: 12px;
+                display: grid;
+            }
+            .nav-links li {
+                display: flex;
+            }
+            nav ul {
+                width: 100%;
+                justify-items: right;
+            }
+            .mobile-nav-icon {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 15px;
+            }
+            .logo {
+                cursor: pointer;
+                width: 70%;
+                background-color: #36383B;
+            }
+            nav {
+                display: none;
+            }
+            .footer-logo {
+                width: 60%;
+            }
+        }
         /* Small phones 0 - 480px */
         
-        @media only screen and (max-width: 480px) {}
+        @media only screen and (max-width: 480px) {
+            .logo {
+                width: 100%;
+            }
+            .cta {
+                /* display: none; */
+                margin: 0;
+            }
+            nav ul {
+                width: 200px;
+                justify-items: right;
+            }
+            button {
+                padding: 4px 10px;
+                background-color: rgba(0, 136, 169, 1);
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: all 0.5s ease 0s;
+            }
+            .mobile-nav-icon {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 15px 15px 15px 0px;
+            }
+            nav {
+                display: none;
+            }
+            .footer-logo {
+                width: 40%;
+                padding: 10px;
+            }
+            footer .smicon {
+                font-size: 20px;
+            }
+        }

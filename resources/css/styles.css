@@ -135,12 +135,14 @@ ul {
     display: flex;
     list-style: none;
     background-color: #36383B;
+    text-align: right;
 }
 
 .nav-links li {
     display: inline-block;
     margin: 0px 20px;
     background-color: #36383B;
+    padding-right: 20px;
 }
 
 .nav-links li a {
@@ -163,6 +165,18 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.5);
+}
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 300%;
+    color: #fff;
 }
 
 .hero img {
