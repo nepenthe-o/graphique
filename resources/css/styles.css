@@ -134,6 +134,11 @@
         transition: all 0.5s ease 0s;
     }
     
+    .nav-links li a:link {
+        color: #fff;
+        text-decoration: none;
+    }
+    
     .nav-links li a:hover {
         color: #0DA3AC;
         text-decoration: none;
