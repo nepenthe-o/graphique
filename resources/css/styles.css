@@ -3,7 +3,6 @@
     
     * {
         box-sizing: border-box;
-        margin: 0;
     }
     
     html,
@@ -18,16 +17,11 @@
     /* HEADINGS */
     /* ----------------------------------------------- */
     
-    h1,
-    h2 {
-        font-weight: 400;
-        text-transform: uppercase;
-    }
-    
     h1 {
         font-size: 240%;
         word-spacing: 4px;
         letter-spacing: 1px;
+        text-transform: uppercase;
     }
     
     h2 {
