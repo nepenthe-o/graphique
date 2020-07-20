@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173071190-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173071190-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Graphique Freelance is a graphic design, web development, website design, photography, marketing and advertising service based in Centurion, South Africa.">
@@ -25,94 +38,91 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo" class="logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo"></a>
+        </div>
         <nav>
-            <ul class="nav-links js--main-nav">
+            <ul class="main-nav">
                 <li><a href="graphicdesign.html">Marketing & Graphic Design</a></li>
                 <li><a href="photography.html">Photography</a></li>
                 <li><a href="webdesign.html">Web Development</a></li>
             </ul>
-            <a class="mobile-nav-icon js--nav-icon">
-                <ion-icon name="menu-outline"></ion-icon>
-            </a>
         </nav>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
+        <div class="button">
+            <a class="btn" href="contact.html">Contact</a>
+        </div>
     </header>
+
 
     <section class="hero">
         <img src="img/hero/hero-02.jpg" alt="hero image">
     </section>
 
-    <div class="category-heading-contact">
-        <h4>CONTACT US FOR</h4>
+    <div class="category-heading">
+        <h1>LET'S CREATE TOGETHER</h1>
     </div>
 
-    <section class="grid-container">
+    <section class="features-grid">
         <div class="icon-headings">
             <ion-icon name="sync-outline" class="large-icons"></ion-icon>
-            <h6>Ridiculously Fast Turnarounds</h6>
+            <h3>Ridiculously <br>Fast <br>Turnarounds</h3>
             <p>Not only cost-effective but time-effective too. The work cycle runs faster with the absence of middle-men.</p>
         </div>
         <div class="icon-headings">
             <ion-icon name="finger-print-outline" class="large-icons"></ion-icon>
-            <h6>A Dedicated <br> Professional Expert</h6>
-            <p>We take ownership of your creative process to grow your brand.</p>
+            <h3>A Dedicated <br> Professional <br> Expert</h3>
+            <p>Ambitious, Effective and Helpful. We take ownership of your creative process to grow your brand.</p>
         </div>
         <div class="icon-headings">
             <ion-icon name="swap-vertical-outline" class="large-icons"></ion-icon>
-            <h6>Unlimited Requests <br> and Revisions</h6>
-            <p>With unlimited requests and revisions, we’ll keep designing until it’s perfect.</p>
+            <h3>Unlimited <br>Requests <br> and Revisions</h3>
+            <p>With unlimited requests and revisions, we’ll keep designing until your project is perfect.</p>
         </div>
 
         <div class="icon-headings">
             <ion-icon name="camera-reverse-outline" class="large-icons"></ion-icon>
-            <h6>Free Stock Access</h6>
+            <h3>Free <br> Stock<br> Access</h3>
             <p>All our customers get free access to our library of high-quality photographic and vector stock assets.</p>
         </div>
     </section>
 
-
     <section class="contact-grid">
-        <div class="contact-details">
-            <h6>CALL</h6>
-            <p>+27 012 665 2396 <br> +27 084 208 2813</p>
-        </div>
-        <div class="contact-details">
-            <h6>ADDRESS</h6>
-            <p>33 Birmingham Street <br> Highveld, Centurion</p>
-        </div>
-        <div class="contact-details">
-            <h6>EMAIL</h6>
-            <a href="mailto:sonja@graphique.co.za" target="_blank">sonja@graphique.co.za</a>
-        </div>
-    </section>
-
-    <section class="googlemap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20307.410342538242!2d28.178819202243258!3d-25.873528963250195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9565c37e660881%3A0xf37d8c02ab864a07!2s33%20Birmingham%20St%2C%20Highveld%2C%20Centurion%2C%200157!5e0!3m2!1sen!2sza!4v1594549547112!5m2!1sen!2sza"
-            width="110%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="contact-details">
+            <h3>CALL</h3>
+            <p>+27 012 665 2396 <br> +27 084 208 2813</p> <br>
+            <h3>ADDRESS</h3>
+            <p>33 Birmingham Street <br> Highveld, Centurion</p><br>
+            <h3>EMAIL</h3>
+            <a href="mailto:sonja@graphique.co.za" target="_blank">info@graphique.co.za</a>
+        </div>
     </section>
-
 
     <footer>
-        <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo" class="footer-logo"></a>
         <nav>
-            <ul class="nav-links-footer">
+            <ul class="footer-nav">
                 <li><a href="graphicdesign.html">Marketing & Graphic Design</a></li>
                 <li><a href="photography.html">Photography</a></li>
                 <li><a href="webdesign.html">Web Development</a></li>
             </ul>
         </nav>
-        <a href="#">
-            <ion-icon name="logo-facebook" class="smicon"></ion-icon>
-        </a>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
+        <div class="facebook-icon">
+            <a class="fbicon" href="https://www.facebook.com/Graphique-112137290577543/" target="blank">
+                <ion-icon name="logo-facebook" class="fbicon"></ion-icon>
+            </a>
+        </div>
+        <div class="footer-button">
+            <a class="footer-btn" href="contact.html">Contact</a>
+        </div>
     </footer>
+
+
 
     <script src="vendors/js/jquery-3.5.1.js"></script>
     <script src="vendors/js/bootstrap.bundle.js"></script>
-    <script src="vendors/js/jquery.waypoints.js"></script>
-    <script src="js/script.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
 
 
 </body>

@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173071190-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-173071190-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Graphique Freelance is a graphic design, web development, website design, photography, marketing and advertising service based in Centurion, South Africa.">
@@ -25,18 +38,19 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo" class="logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo"></a>
+        </div>
         <nav>
-            <ul class="nav-links js--main-nav">
+            <ul class="main-nav">
                 <li><a href="graphicdesign.html">Marketing & Graphic Design</a></li>
                 <li><a href="photography.html">Photography</a></li>
                 <li><a href="webdesign.html">Web Development</a></li>
             </ul>
-            <a class="mobile-nav-icon js--nav-icon">
-                <ion-icon name="menu-outline"></ion-icon>
-            </a>
         </nav>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
+        <div class="button">
+            <a class="btn" href="contact.html">Contact</a>
+        </div>
     </header>
 
     <section class="hero">
@@ -45,105 +59,106 @@
 
 
     <div class="category-heading">
-        <h4>PROFESSIONAL <br> PHOTOGRAPHY STUDIO</h4>
-        <h6>Our in-house studio specialize in commercial and product photography for websites,e-commerce, and catalogues. Elevate your brand with professional images at competitive prices.</h6>
+        <h2>PROFESSIONAL <br> PHOTOGRAPHY STUDIO</h2>
+        <h3>Our in-house studio specialize in commercial and product photography for websites,e-commerce, and catalogues. Elevate your brand with professional images at competitive prices.</h3>
     </div>
 
-    <row class="section-row">
+    <div class="section-row">
         <h2>PRODUCT PACK-SHOTS</h2>
-    </row>
-
-
-    <div class="photography-gallery">
-        <img src="img/photography/packshots-01.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-02.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-03.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-04.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-05.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-06.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-07.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-08.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-09.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-10.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-11.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/packshots-12.jpg" class="pack-shots" alt="photography example">
     </div>
 
-    <row class="section-row">
+
+    <div class="photo-gallery-grid">
+        <img src="img/photography/packshots-01.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-02.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-03.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-04.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-05.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-06.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-07.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-08.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-09.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-10.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-11.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/packshots-12.jpg" class="gallery-items" alt="photography example">
+    </div>
+
+    <div class="section-row">
         <h2>FOOD PHOTOGRAPHY</h2>
-    </row>
-
-
-    <div class="photography-gallery">
-        <img src="img/photography/food-01.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-02.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-03.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-04.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-05.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-06.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-07.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/food-08.jpg" class="pack-shots" alt="photography example">
     </div>
 
-    <row class="section-row">
+
+    <div class="photo-gallery-grid">
+        <img src="img/photography/food-01.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-02.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-03.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-04.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-05.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-06.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-07.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/food-08.jpg" class="gallery-items" alt="photography example">
+    </div>
+
+    <div class="section-row">
         <h2>CONSTRUCTION AND PRODUCTION</h2>
-    </row>
-
-
-    <div class="photography-gallery">
-        <img src="img/photography/construction-01.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-06.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-07.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-08.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-02.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-03.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-04.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/construction-05.jpg" class="pack-shots" alt="photography example">
     </div>
 
-    <row class="section-row">
+
+    <div class="photo-gallery-grid">
+        <img src="img/photography/construction-01.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-06.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-07.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-08.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-02.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-03.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-04.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/construction-05.jpg" class="gallery-items" alt="photography example">
+    </div>
+
+    <div class="section-row">
         <h2>RETAIL MARKETING</h2>
-    </row>
-
-
-    <div class="photography-gallery">
-        <img src="img/photography/retail-01.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-02.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-03.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-04.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-05.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-06.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-07.jpg" class="pack-shots" alt="photography example">
-        <img src="img/photography/retail-08.jpg" class="pack-shots" alt="photography example">
     </div>
 
 
-    <row class="section-end">
-        <h2>Photography continues to be the most effective tool for digital marketing and brand awareness, we create inspiring photography that increases engagement and helps your business stand out across multiple platforms. </h2>
-    </row>
+    <div class="photo-gallery-grid">
+        <img src="img/photography/retail-01.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-02.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-03.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-04.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-05.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-06.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-07.jpg" class="gallery-items" alt="photography example">
+        <img src="img/photography/retail-08.jpg" class="gallery-items" alt="photography example">
+    </div>
+
+
+    <h4>Photography continues to be the most effective tool for digital marketing and brand awareness, we create inspiring photography that increases engagement and helps your business stand out across multiple platforms. </h4>
 
 
     <footer>
-        <a href="index.html"><img src="img/logos/gflogowhite.svg" alt="graphique logo" class="footer-logo"></a>
         <nav>
-            <ul class="nav-links-footer">
+            <ul class="footer-nav">
                 <li><a href="graphicdesign.html">Marketing & Graphic Design</a></li>
                 <li><a href="photography.html">Photography</a></li>
                 <li><a href="webdesign.html">Web Development</a></li>
             </ul>
         </nav>
-        <a href="#">
-            <ion-icon name="logo-facebook" class="smicon"></ion-icon>
-        </a>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
+        <div class="facebook-icon">
+            <a class="fbicon" href="https://www.facebook.com/Graphique-112137290577543/" target="blank">
+                <ion-icon name="logo-facebook" class="fbicon"></ion-icon>
+            </a>
+        </div>
+        <div class="footer-button">
+            <a class="footer-btn" href="contact.html">Contact</a>
+        </div>
     </footer>
+
 
 
     <script src="vendors/js/jquery-3.5.1.js"></script>
     <script src="vendors/js/bootstrap.bundle.js"></script>
-    <script src="vendors/js/jquery.waypoints.js"></script>
-    <script src="js/script.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="css/queriestest01.css"></script>
 
 
 </body>
