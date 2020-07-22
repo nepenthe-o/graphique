@@ -8,7 +8,7 @@
         "no-eol-whitespace": null,
         "no-missing-end-of-source-newline": null,
         "length-zero-no-unit": null,
-        "no-decending-specificity": null
+        "no-descending-specificity": null
     },
     "ignoreFiles": [
         "/github/workspace/resources/vendors/**/*.css"
