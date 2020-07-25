@@ -137,7 +137,6 @@
         grid-row-gap: 20px;
         grid-column-gap: 20px;
         background-color: #171B1D;
-        grid-template-columns: 1fr 1fr;
         align-items: top;
         justify-items: center;
         text-align: center;
@@ -153,7 +152,6 @@
         grid-row-gap: 20px;
         grid-column-gap: 20px;
         background-color: #171B1D;
-        grid-template-columns: 1fr;
         align-items: top;
         justify-items: center;
         text-align: center;
@@ -170,7 +168,6 @@
         grid-column-gap: 20px;
         /* background-color: #f7b219; */
         background-color: #171B1D;
-        grid-template-columns: 1fr;
         align-items: top;
         justify-items: center;
         text-align: center;
@@ -384,7 +381,6 @@
         max-width: 60%;
     }
     .photo-gallery-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: repeat(auto-fit, minmax(20%, 4fr));
     }
 }
