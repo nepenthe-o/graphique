@@ -229,9 +229,16 @@
      }
      
      .facebook-icon {
+         display: flex;
          color: rgb(172, 172, 172);
          font-size: 1.5rem;
          align-self: center;
+         justify-self: center;
+         align-items: center;
+     }
+     
+     .fbicon {
+         padding: 0 10px 0 0px;
      }
      
      .facebook-icon a:link,
